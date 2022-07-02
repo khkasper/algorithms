@@ -13,9 +13,6 @@ def is_anagram(first_string, second_string):
         return False
     first_string_dict = string_dict(first_string)
     second_string_dict = string_dict(second_string)
-    for char in first_string_dict:
-        if char not in second_string_dict:
-            return False
-        if first_string_dict[char] != second_string_dict[char]:
-            return False
+    if first_string_dict != second_string_dict:
+        return False
     return True
