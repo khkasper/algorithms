@@ -9,10 +9,6 @@ def string_dict(string):
 
 
 def is_anagram(first_string, second_string):
-    if len(first_string) != len(second_string):
-        return False
     first_string_dict = string_dict(first_string)
     second_string_dict = string_dict(second_string)
-    if first_string_dict != second_string_dict:
-        return False
-    return True
+    return first_string_dict == second_string_dict
