@@ -75,7 +75,7 @@ second_string = "empada"
 
 ## Bônus
 
-## 4 - Encontrando números repetidos (Algoritmo de busca)
+- [x] 4 - Encontrando números repetidos (Algoritmo de busca)
 
 ```md
 nums = [1, 3, 4, 2, 2]
